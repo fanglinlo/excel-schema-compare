@@ -1,0 +1,9 @@
+# Index map for Excel DB Diff
+# Maps each sheet name to its primary key column(s).
+# Use a single column name for a unique key,
+# or a list of columns for composite keys.
+
+# Example demo sheets
+User_List: user_id                # unique by single column
+Product_Table: [product_id, version]   # composite key
+Transaction_Log: [txn_id, date]        # composite key

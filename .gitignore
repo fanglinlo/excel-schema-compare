@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# PyCharm project settings
+.idea/
+
+# Jupyter & VSCode
+.ipynb_checkpoints/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Excel / CSV outputs
+*.xlsx
+*.xlsb
+*.xlsm
+*.csv
+*.parquet
+/output/
